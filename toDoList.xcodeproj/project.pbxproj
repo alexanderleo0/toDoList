@@ -37,6 +37,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA1C51AA212D7ACC00057F2B /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA6C5309212A8758005A9BBB /* toDoList.xcdatamodeld */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		EA1C51AB212D7ADB00057F2B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA6C5304212A8758005A9BBB /* TodoListViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EA1C51AC212D7AF300057F2B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA6C5306212A8758005A9BBB /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA1C51AD212D7B1000057F2B /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				EA6C530C212A875F005A9BBB /* Assets.xcassets */,
+				EA6C530E212A875F005A9BBB /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
 		EA6C52F6212A8758005A9BBB = {
 			isa = PBXGroup;
 			children = (
@@ -57,12 +90,11 @@
 			isa = PBXGroup;
 			children = (
 				EA6C5302212A8758005A9BBB /* AppDelegate.swift */,
-				EA6C5304212A8758005A9BBB /* TodoListViewController.swift */,
-				EA6C5306212A8758005A9BBB /* Main.storyboard */,
-				EA6C530C212A875F005A9BBB /* Assets.xcassets */,
-				EA6C530E212A875F005A9BBB /* LaunchScreen.storyboard */,
+				EA1C51AB212D7ADB00057F2B /* Controllers */,
+				EA1C51AA212D7ACC00057F2B /* Data Model */,
+				EA1C51AC212D7AF300057F2B /* Views */,
+				EA1C51AD212D7B1000057F2B /* Supporting files */,
 				EA6C5311212A875F005A9BBB /* Info.plist */,
-				EA6C5309212A8758005A9BBB /* toDoList.xcdatamodeld */,
 			);
 			path = toDoList;
 			sourceTree = "<group>";
